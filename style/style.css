@@ -17,7 +17,7 @@ header.home {
   background: url("../assets/img/bgimg/fotor-ai-2024071024331.jpg") no-repeat;
   background-size: cover;
   height: 100vh;
-  margin-top: 10px;
+  padding-top: 10px;
 }
 header:not(header.home) menu,
 header:not(header.home) ul {
