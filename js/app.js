@@ -16,11 +16,12 @@ product_thumbnail.forEach((product) => {
   });
 });
 
-const number = document.querySelectorAll(".number");
-const increase = document.querySelectorAll(".increase");
-const decrease = document.querySelectorAll(".decrease");
-let total = document.querySelectorAll(".total");
-const price = document.querySelectorAll(".price").innerHTML;
+const number = document.querySelector(".number");
+const increase = document.querySelector(".increase");
+const decrease = document.querySelector(".decrease");
+let total = document.querySelector(".total");
+const price = document.querySelector(".price").innerHTML;
+const totalAll = document.querySelector('.total-all');
 
 
 
@@ -36,6 +37,7 @@ increase.addEventListener("click", function () {
     number.innerHTML = newNum;
   }
   total.innerHTML = Number(price) * Number(number.innerHTML);
+  totalAll.innerHTML = total.innerHTML + "  تومان";
 });
 
 decrease.addEventListener("click", function () {
@@ -47,4 +49,7 @@ decrease.addEventListener("click", function () {
     number.innerHTML = newNum;
   }
   total.innerHTML = Number(price) * Number(number.innerHTML);
+  totalAll.innerHTML = total.innerHTML + "  تومان";
 });
+
+
