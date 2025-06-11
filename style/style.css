@@ -509,6 +509,43 @@ td.counter-container button:hover {
   align-items: center;
   justify-content: center;
 }
+/* about */
+.top-about{
+  background-color: #efb49b;
+  margin: 20px 0;
+  border-radius: 10px;
+  padding: 20px;
+  gap: 30px;
+  align-items: center;
+}
+.top-about-img img{
+  border-radius: 10px;
+}
+.btn-about{
+  padding: 10px 20px;
+  background-color: #98553a;
+  border-radius: 16px;
+  margin-top: 10px;
+}
+.btn-about a{
+    color: #e7ded9;
+}
+.btn-about:hover{
+  background-color: #5f3322;
+}
+.why-us{
+  margin: 50px 0;
+}
+.why-us h3{
+  padding: 10px 0;
+}
+.why-us p{
+  margin-bottom: 10px;
+}
+.why-us ol li{
+  list-style-type: decimal;
+  margin: 10px 0;
+}
 @media screen and (max-width: 768px) {
   .checkbtn {
     display: block;
