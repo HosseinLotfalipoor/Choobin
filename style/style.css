@@ -419,6 +419,21 @@ img[title] {
   margin-top: 2vw;
   margin-bottom: 2vw;
 }
+.submit-order{
+  width: 100%;
+}
+.submit-btn{
+  width:100%;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1vw;
+  background-color: rgb(244, 243, 243);
+  transition: all 0.5s;
+}
+.submit-btn:hover{
+  background-color: #98553a;
+  color: #fff;
+}
 .order-page-title {
   margin: 30px 0;
 }
@@ -748,6 +763,12 @@ td.counter-container button:hover {
     padding: 10px 0;
     margin: 0 10px;
     font-size: 3vw;
+  }
+  .submit-btn{
+    font-size: 4vw;
+  }
+  .total-all-number{
+    height: 25%;
   }
   .increase,
   .decrease,
